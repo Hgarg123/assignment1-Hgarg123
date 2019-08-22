@@ -18,6 +18,9 @@ public class Gravity {
 		double g=9.8;
 		Scanner obj=new Scanner(System.in);
 		double time=obj.nextFloat();
+        System.out.print("The speed of the object at"+time);
+        double speed=(g*time);
+        System.out.print("seconds after its release is"+speed);
 
 
 
