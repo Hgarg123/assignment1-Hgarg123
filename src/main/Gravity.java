@@ -4,8 +4,8 @@
  * */
 package main;
 
-// import java.util.Scanner;
-// uncomment the above line to use input in your program.
+import java.util.Scanner;
+//uncomment the above line to use input in your program.
 
 public class Gravity {
 	// TODO 1: Create the main method
@@ -15,6 +15,12 @@ public class Gravity {
 		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
 		 *   c. Calculate the result and print it to the screen.
 		 * */
+		double g=9.8;
+		Scanner obj=new Scanner(System.in);
+		double time=obj.nextFloat();
+
+
+
 	}
 	// P.S: Refer to the README.md file for the problem statement, input & output.
 }
